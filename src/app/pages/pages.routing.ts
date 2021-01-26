@@ -1,4 +1,4 @@
-import { Router, RouterModule } from '@angular/router';
+import { Router, RouterModule, Routes } from '@angular/router';
 
 
 import { NgModule } from '@angular/core';
