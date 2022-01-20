@@ -10,6 +10,7 @@ import { PagesComponent } from './pages.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 
@@ -26,6 +27,7 @@ const routes: Routes = [
      { path: 'account-settings', component: AccountSettingsComponent, data:{ titulo: 'Temas'} },
      { path: 'promesas', component: PromesasComponent, data:{ titulo: 'Promesas'} },
      { path: 'rxjs', component: RxjsComponent, data:{ titulo: 'RxJs'}},
+     { path: 'perfil', component: PerfilComponent, data:{ titulo: 'perfil de usuario'}},
      
     ]
 
