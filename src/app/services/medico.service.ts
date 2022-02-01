@@ -30,7 +30,7 @@ export class MedicoService {
     const url = `${base_url}/medicos`;
     return this.http.get(url, this.headers)
                 .pipe(
-                  map((resp: {ok: boolean, medicos: Medico}) => resp.medicos)
+                  map((resp: {ok: boolean, medicos: Medico[]}) => resp.medicos)
                 );
   }
 
